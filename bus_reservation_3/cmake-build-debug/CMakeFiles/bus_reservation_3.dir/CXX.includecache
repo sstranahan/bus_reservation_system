@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/bus.h
+iostream
+-
+string
+-
+iomanip
+-
+
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/fleet.h
+vector
+-
+bus.h
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/bus.h
+
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/main.cpp
+limits
+-
+bus.h
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/bus.h
+fleet.h
+C:/Users/sstranahan/CLionProjects/bus_reservation_3/fleet.h
+
